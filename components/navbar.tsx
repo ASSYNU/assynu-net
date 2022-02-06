@@ -8,7 +8,7 @@ function classNames(...classes: string[]) {
 }
 
 
-const Navbar = (props: any[]) => {
+const Navbar = (props: { navigation: any[]; }) => {
   return (
     <Disclosure as="nav">
       {(open) => (
