@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "out",
+    "public": "/home/runner/work/assynu-net/assynu-net/out",
     "ignore": [
       "firebase.json",
       "**/.*",
