@@ -45,8 +45,8 @@ const Home: NextPage = () => {
             <Card.Body>
               <Card.Title className="text-3xl text-center">Shopping List</Card.Title>
               <Card.Text className='mt-1 text-center'>
-                One list to keep all your need's in one place! Shopping List
-                application with clean UI, easy to use. Made to keep your need's
+                One list to keep all your need&apos;s in one place! Shopping List
+                application with clean UI, easy to use. Made to keep your need&apos;s
                 in one place. You can use it by your own or make shared list
                 with your friends or family!
               </Card.Text>

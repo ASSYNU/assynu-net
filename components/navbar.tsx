@@ -32,7 +32,7 @@ const Navbar = (props: { navigation: any[]; }) => {
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
-                    {props.navigation.map((item: { name: {} | null | undefined; href: string | undefined; current: any; }) => (
+                    {props.navigation.map((item: { name: string | null | undefined; href: string | undefined; current: any; }) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -56,7 +56,7 @@ const Navbar = (props: { navigation: any[]; }) => {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {props.navigation.map((item: { name: {} | null | undefined; href: string | undefined; current: any; }) => (
+              {props.navigation.map((item: { name: string | null | undefined; href: string | undefined; current: any; }) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"

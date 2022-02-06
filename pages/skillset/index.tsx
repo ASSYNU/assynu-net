@@ -31,7 +31,7 @@ const Home: NextPage = () => {
       />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Technologies I'm using</h1>
+        <h1 className={styles.title}>Technologies I&apos;m using</h1>
         <div className="flex space-x-4">
           <Card
             style={{ width: "18rem" }}
