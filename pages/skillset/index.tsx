@@ -11,6 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Assynu - Technologies</title>
         <meta name="description" content="Assynu's Technologies" />
+        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
