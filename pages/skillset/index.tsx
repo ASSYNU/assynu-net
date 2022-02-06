@@ -125,6 +125,10 @@ const Home: NextPage = () => {
           </Card>
         </div>
       </main>
+
+      <footer className="text-gray-500 mb-3 text-center">
+        <a href="https://www.assynu.net">Made by Assynu</a>
+      </footer>
     </div>
   );
 };
