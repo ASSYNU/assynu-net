@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
       
-        <h1 className={styles.title}>Student, Developer, Gamer.</h1>
+        <h1 className={styles.title}>Student, Developer, Gamer</h1>
         <p className="text-xl p-3.5 max-w-5xl text-center">
           My name is Dawid, I'm a 17 year old. I'm currently in high school, and
           I'm learning how to code by myself. My main and favourite language is
