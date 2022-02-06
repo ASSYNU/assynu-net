@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Assynu Net</title>
-        <meta name="description" content="Assynu's personal website" />
+        <meta name="description" content="Assynu website" />
         <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
