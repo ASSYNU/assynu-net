@@ -11,7 +11,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Assynu - Projects</title>
         <meta name="description" content="Assynu's Projects" />
-        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer" />
+        <meta
+          name="keywords"
+          content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -33,27 +36,31 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Public Projects</h1>
-        <a href="https://play.google.com/store/apps/details?id=com.assynu.shoppinglist">
-          <Card
-            style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
-          >
-            <Card.Img
-              variant="top"
-              className="rounded-2xl mb-3"
-              src="https://raw.githubusercontent.com/ASSYNU/ShoppingList/master/footage/SS_1.png"
-            />
-            <Card.Body>
-              <Card.Title className="text-3xl text-center">Shopping List</Card.Title>
-              <Card.Text className='mt-1 text-center'>
-                One list to keep all your need&apos;s in one place! Shopping List
-                application with clean UI, easy to use. Made to keep your need&apos;s
-                in one place. You can use it by your own or make shared list
-                with your friends or family!
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </a>
+        <div className={styles.flexContainer}>
+          <a href="https://play.google.com/store/apps/details?id=com.assynu.shoppinglist">
+            <Card
+              style={{ width: "18rem" }}
+              className="rounded-2xl bg-gray-600 p-3 mt-10"
+            >
+              <Card.Img
+                variant="top"
+                className="rounded-2xl mb-3"
+                src="https://raw.githubusercontent.com/ASSYNU/ShoppingList/master/footage/SS_1.png"
+              />
+              <Card.Body>
+                <Card.Title className="text-3xl text-center">
+                  Shopping List
+                </Card.Title>
+                <Card.Text className="mt-1 text-center">
+                  One list to keep all your need&apos;s in one place! Shopping
+                  List application with clean UI, easy to use. Made to keep your
+                  need&apos;s in one place. You can use it by your own or make
+                  shared list with your friends or family!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </a>
+        </div>
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
