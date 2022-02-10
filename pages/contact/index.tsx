@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           { name: "Home", href: "/", current: false },
           { name: "Projects", href: "/projects", current: false },
           { name: "Contact", href: "/contact", current: true },
-          { name: "Technologies", href: "/skillset", current: false },
+          { name: "Technologies", href: "/technologies", current: false },
           { name: "FAQ", href: "/faq", current: false },
           {
             name: "Support me",

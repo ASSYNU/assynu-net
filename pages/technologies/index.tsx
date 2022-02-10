@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           { name: "Home", href: "/", current: false },
           { name: "Projects", href: "/projects", current: false },
           { name: "Contact", href: "/contact", current: false },
-          { name: "Technologies", href: "/skillset", current: true },
+          { name: "Technologies", href: "/technologies", current: true },
           { name: "FAQ", href: "/faq", current: false },
           {
             name: "Support me",
@@ -32,11 +32,11 @@ const Home: NextPage = () => {
       />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Technologies I&apos;m using</h1>
-        <div className="flex space-x-4">
+        <h1 className={styles.title}>Technologies <br/> I&apos;m using</h1>
+        <div className={styles.flexContainer}>
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3 m-5"
           >
             <Card.Img
               variant="top"
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3  m-5"
           >
             <Card.Img
               variant="top"
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
 
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3  m-5"
           >
             <Card.Img
               variant="top"
@@ -80,10 +80,10 @@ const Home: NextPage = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="flex space-x-4">
+        <div className={styles.flexContainer}>
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3  m-5"
           >
             <Card.Img
               variant="top"
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
 
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3  m-5"
           >
             <Card.Img
               variant="top"
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
 
           <Card
             style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3 mt-10"
+            className="rounded-2xl bg-gray-600 p-3  m-5"
           >
             <Card.Img
               variant="top"
