@@ -11,6 +11,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Assynu - Projects</title>
         <meta name="description" content="Assynu's Projects" />
+        <meta name="theme-color" content="#141414" />
         <meta
           name="keywords"
           content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer"
