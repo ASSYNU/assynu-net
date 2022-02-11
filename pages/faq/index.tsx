@@ -72,6 +72,23 @@ const Home: NextPage = () => {
                 {({ open }) => (
                     <>
                     <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75">
+                        <span>Do i make games?</span>
+                        <ChevronUpIcon
+                        className={`${
+                            open ? 'transform rotate-180' : ''
+                        } w-5 h-5 text-white`}
+                        />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white font-bold">
+                        Yes. I'm curently making game in unity for desktop and mobile, comming to public soon.
+                    </Disclosure.Panel>
+                    </>
+                )}
+                </Disclosure>
+                <Disclosure as="div" className="mt-2">
+                {({ open }) => (
+                    <>
+                    <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75">
                         <span>Am I looking for a job?</span>
                         <ChevronUpIcon
                         className={`${
