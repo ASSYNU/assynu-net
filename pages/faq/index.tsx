@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                         />
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white font-bold">
-                        Yes. I'm curently making game in unity for desktop and mobile, comming to public soon.
+                        Yes. I'm curently making game in c++ for desktop without any engine, comming to public soon.
                     </Disclosure.Panel>
                     </>
                 )}
