@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           { name: "Technologies", href: "/technologies", current: false },
           { name: "FAQ", href: "/faq", current: false },
           {
-            name: "Support me",
+            name: "Support me!",
             href: "https://www.patreon.com/assynu",
             current: false,
           },
