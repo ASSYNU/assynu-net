@@ -38,7 +38,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Public Projects</h1>
         <div className={styles.flexContainer}>
-          <a href="https://play.google.com/store/apps/details?id=com.assynu.shoppinglist">
+          <a href="https://play.google.com/store/apps/details?id=com.assynu.shoppinglist" className="m-5">
             <Card
               style={{ width: "18rem" }}
               className="rounded-2xl bg-gray-600 p-3 mt-10"
@@ -57,6 +57,46 @@ const Home: NextPage = () => {
                   List application with clean UI, easy to use. Made to keep your
                   need&apos;s in one place. You can use it by your own or make
                   shared list with your friends or family!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </a>
+          <a href="https://gp-logistic.com/" className="m-5">
+            <Card
+              style={{ width: "18rem" }}
+              className="rounded-2xl bg-gray-600 p-3 mt-10"
+            >
+              <Card.Img
+                variant="top"
+                className="rounded-2xl mb-3"
+                src="https://gp-logistic.com/logo.png"
+              />
+              <Card.Body>
+                <Card.Title className="text-3xl text-center">
+                  GP Logistic
+                </Card.Title>
+                <Card.Text className="mt-1 text-center">
+                  ETS 2 virtual spedition
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </a>
+          <a href="https://github.com/VulcanovaApp/Vulcanova" className="m-5">
+            <Card
+              style={{ width: "18rem" }}
+              className="rounded-2xl bg-gray-600 p-3 mt-10"
+            >
+              <Card.Img
+                variant="top"
+                className="rounded-2xl mb-3 mx-3"
+                src="https://cdn.discordapp.com/attachments/952673254772977774/955160006137897090/unknown.png"
+              />
+              <Card.Body>
+                <Card.Title className="text-3xl text-center">
+                  Vulcanova (Contributor)
+                </Card.Title>
+                <Card.Text className="mt-1 text-center">
+                  Unmanufactured, cross-platform, mobile Vulcan UONET + client.
                 </Card.Text>
               </Card.Body>
             </Card>
