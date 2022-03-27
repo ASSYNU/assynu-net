@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white font-bold">
-                    assynubusiness@gmail.com
+                    contact@assynu.net
                   </Disclosure.Panel>
                 </>
               )}
