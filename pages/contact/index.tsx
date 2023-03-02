@@ -10,8 +10,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Assynu - Contact</title>
-        <meta name="description" content="Assynu's Contact" />
+        <title>Dawid Bartczak - Contact</title>
+        <meta name="description" content="Dawid Bartczak's Contact" />
         <meta name="theme-color" content="#141414" />
         <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.bartczakdawid.com">Made by Assynu</a>
+        <a href="https://www.bartczakdawid.com">Made by Dawid Bartczak</a>
       </footer>
     </div>
   );
