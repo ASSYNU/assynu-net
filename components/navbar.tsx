@@ -28,7 +28,7 @@ const Navbar = (props: { navigation: any[]; }) => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="flex-shrink-0 flex items-center font-bold text-xl">
-                  ASSYNU
+                  Bartczak Dawid
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">

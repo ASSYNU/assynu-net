@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#141414" />
         <meta
           name="keywords"
-          content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer"
+          content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             />
             <Card.Body>
               <Card.Title className="text-3xl text-center">
-                C# / DotNet
+                C# / .Net
               </Card.Title>
             </Card.Body>
           </Card>
@@ -114,25 +114,11 @@ const Home: NextPage = () => {
               </Card.Title>
             </Card.Body>
           </Card>
-
-          <Card
-            style={{ width: "18rem" }}
-            className="rounded-2xl bg-gray-600 p-3  m-5"
-          >
-            <Card.Img
-              variant="top"
-              className="rounded-2xl mb-3"
-              src="https://serwerweb.pl/wp-content/uploads/2021/03/java.png"
-            />
-            <Card.Body>
-              <Card.Title className="text-3xl text-center">Java</Card.Title>
-            </Card.Body>
-          </Card>
         </div>
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.assynu.net">Made by Assynu</a>
+        <a href="https://www.bartczakdawid.com">Made by Assynu</a>
       </footer>
     </div>
   );

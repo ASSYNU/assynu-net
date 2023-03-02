@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#141414" />
         <meta
           name="keywords"
-          content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer"
+          content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -38,45 +38,22 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Public Projects</h1>
         <div className={styles.flexContainer}>
-          <a href="https://play.google.com/store/apps/details?id=com.assynu.shoppinglist" className="m-5">
+        <a href="https://play.google.com/store/apps/details?id=net.assynu.lifeberryapp" className="m-5">
             <Card
               style={{ width: "18rem" }}
               className="rounded-2xl bg-gray-600 p-3 mt-10"
             >
               <Card.Img
                 variant="top"
-                className="rounded-2xl mb-3"
-                src="https://raw.githubusercontent.com/ASSYNU/ShoppingList/master/footage/SS_1.png"
+                className="rounded-2xl mb-3 mx-3"
+                src="https://play-lh.googleusercontent.com/bdp7hgX7lnTTOGNKy2PpzEDgB6AQpOHNbSgJcGoWTaE08IHnKge_djodHCqHo8vBmg=w240-h480-rw"
               />
               <Card.Body>
                 <Card.Title className="text-3xl text-center">
-                  Shopping List
+                  Lifeberry Employee Manager
                 </Card.Title>
                 <Card.Text className="mt-1 text-center">
-                  One list to keep all your need&apos;s in one place! Shopping
-                  List application with clean UI, easy to use. Made to keep your
-                  need&apos;s in one place. You can use it by your own or make
-                  shared list with your friends or family!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </a>
-          <a href="https://gp-logistic.com/" className="m-5">
-            <Card
-              style={{ width: "18rem" }}
-              className="rounded-2xl bg-gray-600 p-3 mt-10"
-            >
-              <Card.Img
-                variant="top"
-                className="rounded-2xl mb-3"
-                src="https://gp-logistic.com/logo.png"
-              />
-              <Card.Body>
-                <Card.Title className="text-3xl text-center">
-                  GP Logistic
-                </Card.Title>
-                <Card.Text className="mt-1 text-center">
-                  ETS 2 virtual spedition
+                  Official mobile app to manage Lifeberry employees and resources.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -101,11 +78,31 @@ const Home: NextPage = () => {
               </Card.Body>
             </Card>
           </a>
+          <a href="https://discord.gg/77roleplay" className="m-5">
+            <Card
+              style={{ width: "18rem" }}
+              className="rounded-2xl bg-gray-600 p-3 mt-10"
+            >
+              <Card.Img
+                variant="top"
+                className="rounded-2xl mb-3 mx-5"
+                src="https://cdn.discordapp.com/attachments/1023167868575166495/1080952694816129125/logo-77RP.png"
+              />
+              <Card.Body>
+                <Card.Title className="text-3xl text-center">
+                  77 Roleplay
+                </Card.Title>
+                <Card.Text className="mt-1 text-center">
+                  FiveM Roleplay Server
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </a>
         </div>
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.assynu.net">Made by Assynu</a>
+        <a href="https://www.bartczakdawid.com">Made by Assynu</a>
       </footer>
     </div>
   );

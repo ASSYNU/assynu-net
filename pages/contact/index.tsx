@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <title>Assynu - Contact</title>
         <meta name="description" content="Assynu's Contact" />
         <meta name="theme-color" content="#141414" />
-        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer" />
+        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                 </>
               )}
             </Disclosure>
-            <Disclosure as="div" className="mt-2">
+            {/* <Disclosure as="div" className="mt-2">
               {({ open }) => (
                 <>
                   <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-opacity-75">
@@ -72,13 +72,13 @@ const Home: NextPage = () => {
                   </Disclosure.Panel>
                 </>
               )}
-            </Disclosure>
+            </Disclosure> */}
           </div>
         </div>
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.assynu.net">Made by Assynu</a>
+        <a href="https://www.bartczakdawid.com">Made by Assynu</a>
       </footer>
     </div>
   );

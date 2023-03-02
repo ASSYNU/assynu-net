@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <title>Assynu - Projects</title>
         <meta name="description" content="Assynu's Projects" />
         <meta name="theme-color" content="#141414" />
-        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,assynunet,assynu-net,assynu net,software engineer,engineer" />
+        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.assynu.net">Made by Assynu</a>
+        <a href="https://www.bartczakdawid.com">Made by Assynu</a>
       </footer>
     </div>
   );

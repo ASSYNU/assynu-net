@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Bartczak Dawid</title>
         <meta name="description" content="Bartczak Dawid website" />
         <meta name="theme-color" content="#141414" />
-        <meta name="keywords" content="assynu,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,assynu net,software engineer,engineer" />
+        <meta name="keywords" content="bartczakdawid,developer,dev,software,software dev,software developer,bartczakdawidcom,bartczakdawid-com,bartczakdawid net,software engineer,engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -22,8 +22,8 @@ const Home: NextPage = () => {
           { name: "Contact", href: "/contact", current: false },
           { name: "Technologies", href: "/technologies", current: false },
           { name: "FAQ", href: "/faq", current: false },
-          { name: "Support me", href: "https://www.patreon.com/assynu", current: false },
-          { name: "Github", href: "https://github.com/assynu", current: false },
+          { name: "Support me", href: "https://www.patreon.com/bartczakdawid", current: false },
+          { name: "Github", href: "https://github.com/bartczakdawid", current: false },
         ]}
       />
 
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="text-gray-500 mb-3 text-center">
-        <a href="https://www.bartczakdawid.com">Made by Dawid Bartczak</a>
+        <a href="https://www.bartczakdawid.com">Made by bartczakdawid</a>
       </footer>
     </div>
   );
